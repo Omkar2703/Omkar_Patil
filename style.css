@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.sidebar{
+    background-color: rgba(145, 141, 145, 0.851);
+    position: absolute;
+    height: 150vh;
+    transition: transform 0.4s ease-in;
+    
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: white;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(145, 141, 145);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devInfo{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+
+.hello{
+    font-size: 65px;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 45px;
+}
+
+.moreabout{
+    font-size: 25px;
+    margin-top: 23px;
+}
+
+.buttons{
+    margin-top: 39px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(108, 124, 139);
+    font-weight: 27px;
+    margin: 0 3px;
+}
+
+
+
+.btn:hover{
+    background-color: white;
+    color: rgb(108, 124, 139);
+}
+
+.devpi img{
+    height: 60vh;
+    margin-top: 50px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: 'Cairo', sans-serif;
+    margin: 0 200px;
+}
+.contactform h1{
+    font-family: 'Cairo', sans-serif;
+    padding: 12px 0;
+    
+}
+.contactform form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 10px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.introContainer{
+    background-color: rgb(145, 141, 145);
+    height: 85vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devi img{
+    height: 58vh;
+}
+.btn1{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(108, 124, 139);
+    font-weight: 27px;
+    margin-top: 0px;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgb(108, 124, 139);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 145px;
+    margin-top: 10px;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.devpic{
+    display: none;
+}
+.blogcontainer{
+    margin-left: 0 200px;
+}
+.CertiContainer{
+    background-color: white;
+    height: 85vh;
+    width: 90vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
